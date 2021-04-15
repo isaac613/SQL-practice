@@ -36,8 +36,9 @@ const db = new SQL("127.0.0.1", "root", "PASSWORD", "cactus");
 );
 */
 
-db.delete((error, results) => {
+/*db.delete((error, results) => {
   if (error) throw error;
 
   console.log(results);
 }, 1002);
+*/
